@@ -11,6 +11,16 @@
 		4EA0B5D32C6972750013CB52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0B5D22C6972750013CB52 /* ContentView.swift */; };
 		4EA0B5D52C6972770013CB52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EA0B5D42C6972770013CB52 /* Assets.xcassets */; };
 		4EA0B5D82C6972770013CB52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EA0B5D72C6972770013CB52 /* Preview Assets.xcassets */; };
+		4EA0B5DF2C6975FC0013CB52 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EA0B5DE2C6975FC0013CB52 /* GoogleService-Info.plist */; };
+		4EA0B5E22C69775D0013CB52 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4EA0B5E12C69775D0013CB52 /* FirebaseAuth */; };
+		4EA0B5E42C69775D0013CB52 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4EA0B5E32C69775D0013CB52 /* FirebaseFirestore */; };
+		4EA0B5E72C6978450013CB52 /* LoginEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0B5E62C6978450013CB52 /* LoginEmailViewModel.swift */; };
+		4EA0B5E92C697C9B0013CB52 /* SignUpEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0B5E82C697C9B0013CB52 /* SignUpEmailViewModel.swift */; };
+		4EA0B5EC2C697CF40013CB52 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0B5EB2C697CF40013CB52 /* User.swift */; };
+		4EA0B5EE2C697D3E0013CB52 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0B5ED2C697D3E0013CB52 /* Extensions.swift */; };
+		4EA0B5F12C697E3F0013CB52 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0B5F02C697E3F0013CB52 /* LogInView.swift */; };
+		4EA0B5F32C697E530013CB52 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0B5F22C697E530013CB52 /* SignUpView.swift */; };
+		4EA0B5FB2C69832A0013CB52 /* longButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0B5FA2C69832A0013CB52 /* longButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,14 @@
 		4EA0B5D22C6972750013CB52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4EA0B5D42C6972770013CB52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EA0B5D72C6972770013CB52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4EA0B5DE2C6975FC0013CB52 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4EA0B5E62C6978450013CB52 /* LoginEmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEmailViewModel.swift; sourceTree = "<group>"; };
+		4EA0B5E82C697C9B0013CB52 /* SignUpEmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpEmailViewModel.swift; sourceTree = "<group>"; };
+		4EA0B5EB2C697CF40013CB52 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4EA0B5ED2C697D3E0013CB52 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4EA0B5F02C697E3F0013CB52 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		4EA0B5F22C697E530013CB52 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		4EA0B5FA2C69832A0013CB52 /* longButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EA0B5E22C69775D0013CB52 /* FirebaseAuth in Frameworks */,
+				4EA0B5E42C69775D0013CB52 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +55,7 @@
 		4EA0B5C42C6972750013CB52 = {
 			isa = PBXGroup;
 			children = (
+				4EA0B5DE2C6975FC0013CB52 /* GoogleService-Info.plist */,
 				4EA0B5CF2C6972750013CB52 /* HealthAppInterface */,
 				4EA0B5CE2C6972750013CB52 /* Products */,
 			);
@@ -54,6 +75,12 @@
 				4EA0B5D02C6972750013CB52 /* HealthAppInterfaceApp.swift */,
 				4EA0B5D22C6972750013CB52 /* ContentView.swift */,
 				4EA0B5D42C6972770013CB52 /* Assets.xcassets */,
+				4EA0B5ED2C697D3E0013CB52 /* Extensions.swift */,
+				4EA0B5FC2C69852B0013CB52 /* Fonts */,
+				4EA0B5EF2C697E290013CB52 /* Views */,
+				4EA0B5EA2C697CE90013CB52 /* Models */,
+				4EA0B5F42C6981740013CB52 /* Buttons */,
+				4EA0B5E52C6977B00013CB52 /* ViewModels */,
 				4EA0B5D62C6972770013CB52 /* Preview Content */,
 			);
 			path = HealthAppInterface;
@@ -65,6 +92,63 @@
 				4EA0B5D72C6972770013CB52 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4EA0B5E52C6977B00013CB52 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4EA0B5E62C6978450013CB52 /* LoginEmailViewModel.swift */,
+				4EA0B5E82C697C9B0013CB52 /* SignUpEmailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4EA0B5EA2C697CE90013CB52 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4EA0B5EB2C697CF40013CB52 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4EA0B5EF2C697E290013CB52 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4EA0B5F02C697E3F0013CB52 /* LogInView.swift */,
+				4EA0B5F22C697E530013CB52 /* SignUpView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4EA0B5F42C6981740013CB52 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				4EA0B5F62C6983040013CB52 /* LMButtons */,
+				4EA0B5F72C69830D0013CB52 /* DMButtons */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		4EA0B5F62C6983040013CB52 /* LMButtons */ = {
+			isa = PBXGroup;
+			children = (
+				4EA0B5FA2C69832A0013CB52 /* longButton.swift */,
+			);
+			path = LMButtons;
+			sourceTree = "<group>";
+		};
+		4EA0B5F72C69830D0013CB52 /* DMButtons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DMButtons;
+			sourceTree = "<group>";
+		};
+		4EA0B5FC2C69852B0013CB52 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +167,10 @@
 			dependencies = (
 			);
 			name = HealthAppInterface;
+			packageProductDependencies = (
+				4EA0B5E12C69775D0013CB52 /* FirebaseAuth */,
+				4EA0B5E32C69775D0013CB52 /* FirebaseFirestore */,
+			);
 			productName = HealthAppInterface;
 			productReference = 4EA0B5CD2C6972750013CB52 /* HealthAppInterface.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +199,9 @@
 				Base,
 			);
 			mainGroup = 4EA0B5C42C6972750013CB52;
+			packageReferences = (
+				4EA0B5E02C69775C0013CB52 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 4EA0B5CE2C6972750013CB52 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EA0B5D82C6972770013CB52 /* Preview Assets.xcassets in Resources */,
+				4EA0B5DF2C6975FC0013CB52 /* GoogleService-Info.plist in Resources */,
 				4EA0B5D52C6972770013CB52 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +230,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EA0B5D32C6972750013CB52 /* ContentView.swift in Sources */,
+				4EA0B5F12C697E3F0013CB52 /* LogInView.swift in Sources */,
+				4EA0B5EE2C697D3E0013CB52 /* Extensions.swift in Sources */,
 				4EA0B5D12C6972750013CB52 /* HealthAppInterfaceApp.swift in Sources */,
+				4EA0B5F32C697E530013CB52 /* SignUpView.swift in Sources */,
+				4EA0B5FB2C69832A0013CB52 /* longButton.swift in Sources */,
+				4EA0B5E72C6978450013CB52 /* LoginEmailViewModel.swift in Sources */,
+				4EA0B5EC2C697CF40013CB52 /* User.swift in Sources */,
+				4EA0B5E92C697C9B0013CB52 /* SignUpEmailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +443,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4EA0B5E02C69775C0013CB52 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4EA0B5E12C69775D0013CB52 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EA0B5E02C69775C0013CB52 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		4EA0B5E32C69775D0013CB52 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EA0B5E02C69775C0013CB52 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4EA0B5C52C6972750013CB52 /* Project object */;
 }
