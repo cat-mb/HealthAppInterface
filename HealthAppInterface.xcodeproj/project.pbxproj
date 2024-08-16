@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E8379F62C7003D300FCF224 /* FrontPageSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8379F52C7003D300FCF224 /* FrontPageSignInView.swift */; };
+		4E837A002C70146F00FCF224 /* signInGoogle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8379FF2C70146F00FCF224 /* signInGoogle.swift */; };
+		4E837A022C70161F00FCF224 /* signInEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E837A012C70161F00FCF224 /* signInEmail.swift */; };
 		4EA0B5D12C6972750013CB52 /* HealthAppInterfaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0B5D02C6972750013CB52 /* HealthAppInterfaceApp.swift */; };
 		4EA0B5D32C6972750013CB52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0B5D22C6972750013CB52 /* ContentView.swift */; };
 		4EA0B5D52C6972770013CB52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EA0B5D42C6972770013CB52 /* Assets.xcassets */; };
@@ -24,6 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E8379F52C7003D300FCF224 /* FrontPageSignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontPageSignInView.swift; sourceTree = "<group>"; };
+		4E8379FF2C70146F00FCF224 /* signInGoogle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInGoogle.swift; sourceTree = "<group>"; };
+		4E837A012C70161F00FCF224 /* signInEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInEmail.swift; sourceTree = "<group>"; };
 		4EA0B5CD2C6972750013CB52 /* HealthAppInterface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthAppInterface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA0B5D02C6972750013CB52 /* HealthAppInterfaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthAppInterfaceApp.swift; sourceTree = "<group>"; };
 		4EA0B5D22C6972750013CB52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +58,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E8379FE2C70143700FCF224 /* SignInComponents */ = {
+			isa = PBXGroup;
+			children = (
+				4E8379FF2C70146F00FCF224 /* signInGoogle.swift */,
+				4E837A012C70161F00FCF224 /* signInEmail.swift */,
+			);
+			path = SignInComponents;
+			sourceTree = "<group>";
+		};
 		4EA0B5C42C6972750013CB52 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +131,7 @@
 			children = (
 				4EA0B5F02C697E3F0013CB52 /* LogInView.swift */,
 				4EA0B5F22C697E530013CB52 /* SignUpView.swift */,
+				4E8379F52C7003D300FCF224 /* FrontPageSignInView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -133,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				4EA0B5FA2C69832A0013CB52 /* longButton.swift */,
+				4E8379FE2C70143700FCF224 /* SignInComponents */,
 			);
 			path = LMButtons;
 			sourceTree = "<group>";
@@ -232,10 +249,13 @@
 				4EA0B5D32C6972750013CB52 /* ContentView.swift in Sources */,
 				4EA0B5F12C697E3F0013CB52 /* LogInView.swift in Sources */,
 				4EA0B5EE2C697D3E0013CB52 /* Extensions.swift in Sources */,
+				4E837A002C70146F00FCF224 /* signInGoogle.swift in Sources */,
+				4E837A022C70161F00FCF224 /* signInEmail.swift in Sources */,
 				4EA0B5D12C6972750013CB52 /* HealthAppInterfaceApp.swift in Sources */,
 				4EA0B5F32C697E530013CB52 /* SignUpView.swift in Sources */,
 				4EA0B5FB2C69832A0013CB52 /* longButton.swift in Sources */,
 				4EA0B5E72C6978450013CB52 /* LoginEmailViewModel.swift in Sources */,
+				4E8379F62C7003D300FCF224 /* FrontPageSignInView.swift in Sources */,
 				4EA0B5EC2C697CF40013CB52 /* User.swift in Sources */,
 				4EA0B5E92C697C9B0013CB52 /* SignUpEmailViewModel.swift in Sources */,
 			);

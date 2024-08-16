@@ -23,7 +23,7 @@ struct HealthAppInterfaceApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FrontPageSignInView()
         }
     }
 }
