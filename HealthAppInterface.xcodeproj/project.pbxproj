@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E4CDF202C73C2D20024932C /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4CDF1F2C73C2D20024932C /* AuthViewModel.swift */; };
 		4E8379F62C7003D300FCF224 /* FrontPageSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8379F52C7003D300FCF224 /* FrontPageSignInView.swift */; };
 		4E837A002C70146F00FCF224 /* signInGoogle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8379FF2C70146F00FCF224 /* signInGoogle.swift */; };
 		4E837A022C70161F00FCF224 /* signInEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E837A012C70161F00FCF224 /* signInEmail.swift */; };
@@ -24,9 +25,21 @@
 		4EA0B5F12C697E3F0013CB52 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0B5F02C697E3F0013CB52 /* LogInView.swift */; };
 		4EA0B5F32C697E530013CB52 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0B5F22C697E530013CB52 /* SignUpView.swift */; };
 		4EA0B5FB2C69832A0013CB52 /* longButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0B5FA2C69832A0013CB52 /* longButton.swift */; };
+		4EBA19472C7E3D7500FC5CBB /* DashboardMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA19462C7E3D7500FC5CBB /* DashboardMain.swift */; };
+		4EBA194D2C7E4C5C00FC5CBB /* dashboardWidgetTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA194C2C7E4C5C00FC5CBB /* dashboardWidgetTop.swift */; };
+		4EBA19502C7E4DCE00FC5CBB /* nutritionTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA194F2C7E4DCE00FC5CBB /* nutritionTag.swift */; };
+		4EBA19522C7E4EB000FC5CBB /* squareWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA19512C7E4EB000FC5CBB /* squareWidget.swift */; };
+		4EBA19542C7E505B00FC5CBB /* oblongWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA19532C7E505B00FC5CBB /* oblongWidget.swift */; };
+		4EBA195B2C7E519800FC5CBB /* dashboardTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA195A2C7E519800FC5CBB /* dashboardTab.swift */; };
+		4EBA195D2C7E51A300FC5CBB /* foodlogTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA195C2C7E51A300FC5CBB /* foodlogTab.swift */; };
+		4EBA195F2C7E51B300FC5CBB /* recipebookTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA195E2C7E51B300FC5CBB /* recipebookTab.swift */; };
+		4EBA19612C7E51C700FC5CBB /* activityTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA19602C7E51C700FC5CBB /* activityTab.swift */; };
+		4EBA19632C7E521F00FC5CBB /* navBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA19622C7E521F00FC5CBB /* navBar.swift */; };
+		4EBA19652C7E590400FC5CBB /* profileTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA19642C7E590400FC5CBB /* profileTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E4CDF1F2C73C2D20024932C /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		4E8379F52C7003D300FCF224 /* FrontPageSignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontPageSignInView.swift; sourceTree = "<group>"; };
 		4E8379FF2C70146F00FCF224 /* signInGoogle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInGoogle.swift; sourceTree = "<group>"; };
 		4E837A012C70161F00FCF224 /* signInEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInEmail.swift; sourceTree = "<group>"; };
@@ -43,6 +56,17 @@
 		4EA0B5F02C697E3F0013CB52 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 		4EA0B5F22C697E530013CB52 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		4EA0B5FA2C69832A0013CB52 /* longButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longButton.swift; sourceTree = "<group>"; };
+		4EBA19462C7E3D7500FC5CBB /* DashboardMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardMain.swift; sourceTree = "<group>"; };
+		4EBA194C2C7E4C5C00FC5CBB /* dashboardWidgetTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dashboardWidgetTop.swift; sourceTree = "<group>"; };
+		4EBA194F2C7E4DCE00FC5CBB /* nutritionTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutritionTag.swift; sourceTree = "<group>"; };
+		4EBA19512C7E4EB000FC5CBB /* squareWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = squareWidget.swift; sourceTree = "<group>"; };
+		4EBA19532C7E505B00FC5CBB /* oblongWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oblongWidget.swift; sourceTree = "<group>"; };
+		4EBA195A2C7E519800FC5CBB /* dashboardTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dashboardTab.swift; sourceTree = "<group>"; };
+		4EBA195C2C7E51A300FC5CBB /* foodlogTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodlogTab.swift; sourceTree = "<group>"; };
+		4EBA195E2C7E51B300FC5CBB /* recipebookTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipebookTab.swift; sourceTree = "<group>"; };
+		4EBA19602C7E51C700FC5CBB /* activityTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = activityTab.swift; sourceTree = "<group>"; };
+		4EBA19622C7E521F00FC5CBB /* navBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navBar.swift; sourceTree = "<group>"; };
+		4EBA19642C7E590400FC5CBB /* profileTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +115,14 @@
 				4EA0B5D22C6972750013CB52 /* ContentView.swift */,
 				4EA0B5D42C6972770013CB52 /* Assets.xcassets */,
 				4EA0B5ED2C697D3E0013CB52 /* Extensions.swift */,
+				4EBA19452C7D6C8E00FC5CBB /* DashboardViews */,
 				4EA0B5FC2C69852B0013CB52 /* Fonts */,
 				4EA0B5EF2C697E290013CB52 /* Views */,
 				4EA0B5EA2C697CE90013CB52 /* Models */,
+				4EBA194E2C7E4DB700FC5CBB /* CookbookElements */,
+				4E4CDF1F2C73C2D20024932C /* AuthViewModel.swift */,
+				4EBA19482C7E4C1800FC5CBB /* DashboardElements */,
+				4EBA19552C7E50A700FC5CBB /* UniversalElements */,
 				4EA0B5F42C6981740013CB52 /* Buttons */,
 				4EA0B5E52C6977B00013CB52 /* ViewModels */,
 				4EA0B5D62C6972770013CB52 /* Preview Content */,
@@ -166,6 +195,45 @@
 			children = (
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4EBA19452C7D6C8E00FC5CBB /* DashboardViews */ = {
+			isa = PBXGroup;
+			children = (
+				4EBA19462C7E3D7500FC5CBB /* DashboardMain.swift */,
+			);
+			path = DashboardViews;
+			sourceTree = "<group>";
+		};
+		4EBA19482C7E4C1800FC5CBB /* DashboardElements */ = {
+			isa = PBXGroup;
+			children = (
+				4EBA194C2C7E4C5C00FC5CBB /* dashboardWidgetTop.swift */,
+				4EBA19512C7E4EB000FC5CBB /* squareWidget.swift */,
+				4EBA19532C7E505B00FC5CBB /* oblongWidget.swift */,
+				4EBA19642C7E590400FC5CBB /* profileTab.swift */,
+			);
+			path = DashboardElements;
+			sourceTree = "<group>";
+		};
+		4EBA194E2C7E4DB700FC5CBB /* CookbookElements */ = {
+			isa = PBXGroup;
+			children = (
+				4EBA194F2C7E4DCE00FC5CBB /* nutritionTag.swift */,
+			);
+			path = CookbookElements;
+			sourceTree = "<group>";
+		};
+		4EBA19552C7E50A700FC5CBB /* UniversalElements */ = {
+			isa = PBXGroup;
+			children = (
+				4EBA195A2C7E519800FC5CBB /* dashboardTab.swift */,
+				4EBA195C2C7E51A300FC5CBB /* foodlogTab.swift */,
+				4EBA195E2C7E51B300FC5CBB /* recipebookTab.swift */,
+				4EBA19602C7E51C700FC5CBB /* activityTab.swift */,
+				4EBA19622C7E521F00FC5CBB /* navBar.swift */,
+			);
+			path = UniversalElements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,17 +314,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EBA195D2C7E51A300FC5CBB /* foodlogTab.swift in Sources */,
 				4EA0B5D32C6972750013CB52 /* ContentView.swift in Sources */,
 				4EA0B5F12C697E3F0013CB52 /* LogInView.swift in Sources */,
 				4EA0B5EE2C697D3E0013CB52 /* Extensions.swift in Sources */,
+				4EBA19632C7E521F00FC5CBB /* navBar.swift in Sources */,
+				4EBA195B2C7E519800FC5CBB /* dashboardTab.swift in Sources */,
 				4E837A002C70146F00FCF224 /* signInGoogle.swift in Sources */,
+				4EBA19522C7E4EB000FC5CBB /* squareWidget.swift in Sources */,
 				4E837A022C70161F00FCF224 /* signInEmail.swift in Sources */,
+				4EBA19502C7E4DCE00FC5CBB /* nutritionTag.swift in Sources */,
 				4EA0B5D12C6972750013CB52 /* HealthAppInterfaceApp.swift in Sources */,
 				4EA0B5F32C697E530013CB52 /* SignUpView.swift in Sources */,
+				4EBA195F2C7E51B300FC5CBB /* recipebookTab.swift in Sources */,
+				4EBA19472C7E3D7500FC5CBB /* DashboardMain.swift in Sources */,
 				4EA0B5FB2C69832A0013CB52 /* longButton.swift in Sources */,
+				4EBA19612C7E51C700FC5CBB /* activityTab.swift in Sources */,
 				4EA0B5E72C6978450013CB52 /* LoginEmailViewModel.swift in Sources */,
+				4EBA19542C7E505B00FC5CBB /* oblongWidget.swift in Sources */,
 				4E8379F62C7003D300FCF224 /* FrontPageSignInView.swift in Sources */,
+				4EBA19652C7E590400FC5CBB /* profileTab.swift in Sources */,
 				4EA0B5EC2C697CF40013CB52 /* User.swift in Sources */,
+				4E4CDF202C73C2D20024932C /* AuthViewModel.swift in Sources */,
+				4EBA194D2C7E4C5C00FC5CBB /* dashboardWidgetTop.swift in Sources */,
 				4EA0B5E92C697C9B0013CB52 /* SignUpEmailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
